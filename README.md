@@ -10,8 +10,8 @@ This Project Pythia Cookbook covers examples that demonstrate data access via th
 ## Motivation
 
 (Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
-Info about the Open Science Data Federation : https://osg-htc.org/services/osdf.html
-[PelicanFS](https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file)
+Info about the Open Science Data Federation : https://osg-htc.org/services/osdf.html. We will use the 
+[PelicanFS](https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file) package to access data.
 
 ## Authors
 
