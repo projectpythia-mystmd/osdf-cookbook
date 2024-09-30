@@ -29,9 +29,9 @@ This Project Pythia Cookbook covers examples that demonstrate data access via th
 
 (Add content for this section, e.g., "The foundational content includes ... ")
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Section 2 ( Example workflows )
 
-(Add content for this section, e.g., "Example workflows include ... ")
+Example workflows include i) Accessing CESM2 LENS data from the AWS origin and the ii) NCAR origin iii) Accessing NOAA SONAR data from the AWS origin
 
 ## Running the Notebooks
 
