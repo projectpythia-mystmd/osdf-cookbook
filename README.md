@@ -23,7 +23,7 @@ This Project Pythia Cookbook covers examples that demonstrate data access via th
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."
 
 ### Section 1 ( Foundations- PelicanFS )
 
