@@ -58,22 +58,20 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/osdf-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/osdf-cookbook.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `osdf-cookbook` directory
    ```bash
-   cd cookbook-example
+   cd osdf-cookbook
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate osdf-cookbook
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
