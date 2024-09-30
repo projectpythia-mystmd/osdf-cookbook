@@ -11,7 +11,7 @@ This Project Pythia Cookbook covers examples that demonstrate data access via th
 
 (Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
 Info about the Open Science Data Federation : https://osg-htc.org/services/osdf.html
-The PelicanFS github repo: https://github.com/PelicanPlatform/pelicanfs
+[PelicanFS](https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file)
 
 ## Authors
 
@@ -27,9 +27,9 @@ The PelicanFS github repo: https://github.com/PelicanPlatform/pelicanfs
 
 This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."
 
-### Section 1 ( Foundations- PelicanFS )
+### Section 1 ( Foundations)
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+The foundational content includes an introduction to the Open Science Data Federation, its data origins and [PelicanFS](https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file), which is a file system interface (fsspec) for the [Pelican Platform](https://pelicanplatform.org)
 
 ### Section 2 ( Example workflows )
 
