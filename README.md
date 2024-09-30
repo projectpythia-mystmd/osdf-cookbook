@@ -1,20 +1,19 @@
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
 
-# (Replace_with_your_title) Cookbook
+# OSDF Cookbook
 
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
-
+This Project Pythia Cookbook covers examples that demonstrate data access via the Open Science Data Federation. 
 ## Motivation
 
 (Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
 
 ## Authors
 
-[First Author](@first-author), [Second Author](@second-author), etc. _Acknowledge primary content authors here_
+[Harsha Hampapura] (@hrhampapura), [Second Author](@second-author), etc. _Acknowledge primary content authors here_
 
 ### Contributors
 
@@ -26,7 +25,7 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 (State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Section 1 ( Foundations- PelicanFS )
 
 (Add content for this section, e.g., "The foundational content includes ... ")
 
