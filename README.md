@@ -13,7 +13,7 @@ This Project Pythia Cookbook covers examples that demonstrate data access via th
 
 ## Authors
 
-[Harsha Hampapura](https://github.com/hrhampapura), [Second Author](@second-author), etc. _Acknowledge primary content authors here_
+[Harsha Hampapura](https://github.com/hrhampapura), [Second Author](@second-author)
 
 ### Contributors
 
