@@ -9,7 +9,7 @@
 This Project Pythia Cookbook covers examples that demonstrate data access via the Open Science Data Federation. 
 ## Motivation
 
-The Open Science Data Federation [(OSDF)](https://osg-htc.org/services/osdf.html) is a service designed to support the sharing of files staged in autonomous data ``origins”. The OSDF provides a way to efficiently access those files from anywhere in the world via a global namespace and network of caches. In particular, the Pelican platform helps users access climate data from a vast variety of datasets and transfer it to computational platforms like the [OSPool](https://osg-htc.org/services/open_science_pool.html). In this cookbook, we describe how to use [PelicanFS], which is a file system interface (fsspec)(https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file) package to access data. 
+The Open Science Data Federation [(OSDF)](https://osg-htc.org/services/osdf.html) is a service designed to support the sharing of files staged in autonomous data ``origins”. The OSDF provides a way to efficiently access those files from anywhere in the world via a global namespace and network of caches. In particular, the Pelican platform helps users access climate data from a vast variety of datasets and transfer it to computational platforms like the [OSPool](https://osg-htc.org/services/open_science_pool.html). In this cookbook, we describe how to use [PelicanFS](https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file), which is a file system interface (fsspec) for the [Pelican Platform](https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file) package to access data. 
 
 ## Authors
 
