@@ -9,9 +9,7 @@
 This Project Pythia Cookbook covers examples that demonstrate data access via the Open Science Data Federation. 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
-Info about the Open Science Data Federation : https://osg-htc.org/services/osdf.html. We will use the 
-[PelicanFS](https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file) package to access data.
+The Open Science Data Federation [(OSDF)](https://osg-htc.org/services/osdf.html) is a service designed to support the sharing of files staged in autonomous data ``origins”. The OSDF provides a way to efficiently access those files from anywhere in the world via a global namespace and network of caches. In particular, the Pelican platform helps users access climate data from a vast variety of datasets and transfer it to computational platforms like the [OSPool](https://osg-htc.org/services/open_science_pool.html). In this cookbook, we describe how to use [PelicanFS], which is a file system interface (fsspec)(https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file) package to access data. 
 
 ## Authors
 
@@ -29,11 +27,14 @@ This cookbook is broken up into two main sections - "Foundations" and "Example W
 
 ### Section 1 ( Foundations)
 
-The foundational content includes an introduction to the Open Science Data Federation, its data origins and [PelicanFS](https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file), which is a file system interface (fsspec) for the [Pelican Platform](https://pelicanplatform.org)
+The foundational content includes an introduction to the Open Science Data Federation, its data origins and [PelicanFS](https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file), which is a file system interface (fsspec) for the [Pelican Platform](https://pelicanplatform.org).
 
 ### Section 2 ( Example workflows )
 
-Example workflows include i) Accessing CESM2 LENS data from the AWS origin and the ii) NCAR origin iii) Accessing NOAA SONAR data from the AWS origin
+Example workflows include 
+- i) Accessing CESM2 LENS data from the AWS open data origin and the
+- ii) NCAR data origin
+- iii) Accessing NOAA SONAR data from the AWS data origin
 
 ## Running the Notebooks
 
