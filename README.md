@@ -1,38 +1,40 @@
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
 
-# (Replace_with_your_title) Cookbook
+# OSDF Cookbook
 
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
-
+This Project Pythia Cookbook covers examples that demonstrate data access via the Open Science Data Federation. 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+The Open Science Data Federation [(OSDF)](https://osg-htc.org/services/osdf.html) is a service designed to support the sharing of files staged in autonomous data ``origins”. The OSDF provides a way to efficiently access those files from anywhere in the world via a global namespace and network of caches. In particular, the Pelican platform helps users access climate data from a vast variety of datasets and transfer it to computational platforms like the [OSPool](https://osg-htc.org/services/open_science_pool.html). In this cookbook, we describe how to use [PelicanFS](https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file), which is a file system interface (fsspec) for the [Pelican Platform](https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file) package to access data. 
 
 ## Authors
 
-[First Author](@first-author), [Second Author](@second-author), etc. _Acknowledge primary content authors here_
+[Harsha Hampapura](https://github.com/hrhampapura), [Second Author](@second-author)
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/ProjectPythia/osdf-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ProjectPythia/osdf-cookbook" />
 </a>
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Section 1 ( Foundations)
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+The foundational content includes an introduction to the Open Science Data Federation, its data origins and [PelicanFS](https://github.com/PelicanPlatform/pelicanfs?tab=readme-ov-file), which is a file system interface (fsspec) for the [Pelican Platform](https://pelicanplatform.org).
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Section 2 ( Example workflows )
 
-(Add content for this section, e.g., "Example workflows include ... ")
+Example workflows include 
+- i) Accessing CESM2 LENS data from the AWS open data origin and the
+- ii) NCAR data origin
+- iii) Accessing NOAA SONAR data from the AWS data origin
 
 ## Running the Notebooks
 
@@ -59,22 +61,20 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/osdf-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/osdf-cookbook.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `osdf-cookbook` directory
    ```bash
-   cd cookbook-example
+   cd osdf-cookbook
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate osdf-cookbook
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
